@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    color: white;
+    background-image: url(imagens/pexels-photo-248515.png);
+    height: 450px;
+    width: 100%;
+    background-position: center right;
+    background-size: cover;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.393);
+    margin: auto;
+    min-width: 320px;
+    
+}
+
+header > h1{
+    padding: 100px 0px 20px 0px;
+    font-size: 36px;
+}
+
+header > p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 20px 40px 20px;
+}
+
+button{
+    height: 70px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 17px;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    border: 1px rgba(255, 255, 255, 0.564) solid;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+main {
+    padding: 30px;
+    margin: auto;
+}
+
+main > div > h1{
+    color: rgb(68, 68, 68);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.248);
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.paragrafo{
+    display: flex;
+    justify-content: space-around;
+    max-width: 103vh;
+    margin: auto;
+    letter-spacing: 1px;
+    font-size: 17px;
+    
+}
+
+#sessao{
+    background-color: rgb(61, 61, 61);
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+.artigo{
+    margin-top: 20px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 43vh;
+    height: 65vh;
+    
+}
+
+.artigo > img{
+    height: 25vh;
+    width: 43vh;
+    margin-bottom: 20px;
+}
+
+.artigo > h2{
+    color: rgb(68, 68, 68);
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.311);
+}
+
+.artigo > p{
+    padding: 20px;  
+    font-size: 17px; 
+    text-align: center;
+    letter-spacing: 1px;
+    width: 37vh;
+}
+
+.titlend{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.textend{
+    font-size: 18px;
+    text-align: center;
+    width: auto;
+}
+
+.mainend{
+    margin-bottom: 20px;
+}
+
+.sectionend{
+    display: flex;
+}
+
+.article1{
+    padding: 40px;
+    color: white;
+    background-color: rgb(0, 105, 150);
+    width: 50%;
+    height: 200px;
+}
+
+.article1 > h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.article1 > .lorem1{
+    font-size: 18px;
+    text-align: center;
+    max-width: 100vh;
+    margin-bottom: 70px;
+}
+
+.article1 > .email{
+    text-align: center;
+    font-size: 18px;
+}
+
+.article2{
+    padding: 40px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    width: 50%;
+    height: 200px;
+}
+
+.article2 > h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.article2 > p{
+    font-size: 18px;
+    text-align: center;
+    max-width: 100vh;
+    margin-bottom: 70px;
+}
+
+footer{
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.974);
+    padding: 20px;
+    justify-content: space-around;
+    font-size: 20px;
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playpen+Sans:wght@100..800&family=Rowdies:wght@300;400;700&display=swap');
+
+playpen-sans-<uniquifier> {
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+oswald-<uniquifier> {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+:root{
+    --fonte1: 'Oswald';
+    --fonte2: 'Rowdies';
+    --fonte3: 'Playpen Sans';
+}
+
+*{
+    margin: 0px;
+}
+
+header{
+    color: white;
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+header > h1{
+    font-size: 70px;
+    font-family: var(--fonte2);
+    padding-bottom: 10px;
+    
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    font-family: var(--fonte1);
+}
+
+main > .text1{
+    padding: 40px;
+    font-size: 25px;
+    font-family: var(--fonte3);
+    line-height: 2.0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+main > .img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    padding: 25px;
+    color: white;
+    line-height: 2.0;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--fonte3);
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+main> .img1 > p{
+    background-color: rgba(0, 0, 0, 0.297);
+    max-width: 350px;
+      
+}
+
+main> .text2{
+    padding: 40px;
+    font-size: 25px;
+    font-family: var(--fonte3);
+    line-height: 2.0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main> .img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    padding: 25px;
+    color: white;
+    line-height: 2.0;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--fonte3);
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+main> .img2 > p{
+    background-color: rgba(0, 0, 0, 0.51);
+    max-width: 350px;
+
+}
+
+main> .text3{
+    padding: 40px;
+    font-size: 25px;
+    font-family: var(--fonte3);
+    line-height: 2.0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    text-align: center;
+    font-size: 18px;
+
+}
